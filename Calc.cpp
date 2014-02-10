@@ -49,7 +49,7 @@ int main(){
 	
 	mpf_mul (integ, cst_one, inver_five_rt);
 	
-	gmp_printf ("Resule %.*Ff with %d digits\n", OUTPUT_DIGITS, integ, OUTPUT_DIGITS);
+	gmp_printf ("Result %.*Ff with %d digits\n", OUTPUT_DIGITS, integ, OUTPUT_DIGITS);
 	
 	mpf_clear (integ);
 	mpf_clear (five_rt);
